@@ -2,7 +2,7 @@ import styles from './CryptoTable.module.scss';
 import useFetchCryptoData from '../../hooks/useFetchCryptoData';
 import CryptoRow from '../CryptoRow';
 
-export default function App() {
+export default function CryptoTable() {
   const [isLoading, tableData] = useFetchCryptoData();
 
   return (
